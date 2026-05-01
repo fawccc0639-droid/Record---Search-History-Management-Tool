@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>搜索历史</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>搜索历史</h1>
+        <div class="header-actions">
+          <button id="screenshotBtn" class="primary-btn" type="button">截图搜索</button>
+          <button id="clearBtn" class="ghost-btn" type="button">清空</button>
+        </div>
+      </header>
+
+      <section class="controls">
+        <div class="filters" id="timeFilters">
+          <button class="filter-btn active" data-range="today" type="button">今天</button>
+          <button class="filter-btn" data-range="yesterday" type="button">昨天</button>
+          <button class="filter-btn" data-range="week" type="button">本周</button>
+          <button class="filter-btn" data-range="all" type="button">全部</button>
+        </div>
+        <div class="category-filters" id="categoryFilters">
+          <button class="chip-btn active" data-category="all" type="button">全部分类</button>
+          <button class="chip-btn" data-category="学习" type="button">学习</button>
+          <button class="chip-btn" data-category="工作" type="button">工作</button>
+          <button class="chip-btn" data-category="购物" type="button">购物</button>
+          <button class="chip-btn" data-category="娱乐" type="button">娱乐</button>
+          <button class="chip-btn" data-category="生活" type="button">生活</button>
+          <button class="chip-btn" data-category="其他" type="button">其他</button>
+        </div>
+        <div class="topic-filter-title">主题标签（可选，用于细分）</div>
+        <div class="topic-filters" id="topicFilters"></div>
+        <input id="keywordInput" type="text" placeholder="搜索历史关键词..." />
+      </section>
+
+      <section id="stats" class="stats"></section>
+      <ul id="historyList" class="history-list"></ul>
+      <p id="emptyState" class="empty-state hidden">暂无符合条件的搜索记录</p>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

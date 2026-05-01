@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Search History Tracker",
+  "description": "Track webpage search keywords with time and view them in a clean popup.",
+  "version": "1.0.0",
+  "permissions": ["storage", "tabs", "webNavigation", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "start-screenshot-search": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Start screenshot selection mode"
+    }
+  },
+  "action": {
+    "default_title": "Search History Tracker",
+    "default_popup": "popup.html"
+  }
+}
