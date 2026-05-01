@@ -13,24 +13,35 @@ Limited search history	Platforms only keep a few recent searches; new ones overw
 Can't find past searches	Forgot the keywords or which platform you used
 Saw it but didn't bookmark	Content you viewed but didn't save is gone forever
 Fragmented across platforms	Each platform has its own isolated search history
+
+
 ✨ Key Features
 
 
 🔍 Auto-record search history — Captures your search keywords across all platforms, unlimited entries, stored locally
+
 📂 Smart categorization — Automatically identifies content type (Study, Work, Shopping, Entertainment, Life) — no manual sorting needed
+
 🕐 Multi-dimensional search — Filter by time (Today/Yesterday/This Week/All), category, keyword, or source platform
+
 🎬 Quick video search — One-click search on YouTube, Bilibili, Xiaohongshu, and Douyin for related video content
+
 🔄 Smart deduplication — Duplicate keywords within a short time window are recorded only once
+
 📍 Source platform identification — See at a glance which platform a search came from (Xiaohongshu, Taobao, Zhihu, etc.)
+
 🖼️ Screenshots
+
 Main Interface
 
+<img width="788" height="1236" alt="image" src="https://github.com/user-attachments/assets/45266823-c0b5-4283-992a-0ef7e5477a60" />
 
 Automatically records search history, grouped by time, with time-based filtering:
 
 
 Today	Yesterday	This Week	All
 ✅	✅	✅	✅
+
 Smart Categorization
 
 
@@ -39,6 +50,7 @@ Quick Video Search
 
 
 Click the video icon next to any search result to instantly search on YouTube/Bilibili/Xiaohongshu/Douyin.
+
 🛠️ Technical Implementation
 
 
@@ -78,6 +90,7 @@ Navigate to edge://extensions/
 Enable Developer mode (left side)
 Click Load unpacked
 Select the folder, done
+
 🎮 Usage
 
 
@@ -86,14 +99,20 @@ View history — Click the extension icon in the toolbar to open the search hist
 Filter & search — Use time tabs (Today/Yesterday/Week/All) for quick filtering
 Keyword search — Type in the search box for fuzzy matching across all history
 Video search — Click the video icon next to results to search on video platforms
+
 🔒 Privacy
 
 
 ✅ All data is stored locally in your browser only
+
 ✅ No data is uploaded to any server
+
 ✅ No personal information is collected
+
 ✅ One-click clear all history supported
+
 📋 Supported Platforms
+
 
 
 Search Engines: Google, Baidu, Bing, Sogou
@@ -106,6 +125,7 @@ Shopping Platforms: Taobao, JD.com
 
 
 More platforms coming soon...
+
 📌 Roadmap
 
 
@@ -115,6 +135,7 @@ More platforms coming soon...
  Privacy mode (pause recording)
  Custom blacklist & keyword filtering
  Publish to Chrome Web Store
+ 
 📄 License
 
 
@@ -136,18 +157,26 @@ MIT
 找不回之前搜过的	忘了关键词，不知道在哪搜的
 看过但没收藏	当时没收藏，想找的时候找不到了
 多平台混乱	小红书、淘宝、B站各有各的历史，没法统一管理
+
 ✨ 核心功能
 
 
 🔍 自动记录搜索历史 — 记录你在所有平台的搜索关键词，不限条数，本地存储
+
 📂 智能分类 — 自动识别内容类型（学习、工作、购物、娱乐、生活），无需手动整理
+
 🕐 多维度查找 — 按时间（今天/昨天/一周/全部）、分类、关键词、来源平台筛选
+
 🎬 快速搜视频 — 一键在 YouTube、B站、小红书、抖音搜索相关视频内容
+
 🔄 智能去重 — 相同关键词短时间内只记录一次，保持历史记录干净
+
 📍 来源平台识别 — 一眼看出这条搜索来自哪个平台（小红书、淘宝、知乎等）
+
 🖼️ 功能截图
 主界面
 
+<img width="788" height="1236" alt="image" src="https://github.com/user-attachments/assets/6e56ac10-6e30-455b-af14-59028171fa87" />
 
 自动记录搜索历史，按时间分组展示，支持时间筛选：
 
